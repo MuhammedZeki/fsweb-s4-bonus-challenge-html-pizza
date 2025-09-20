@@ -11,10 +11,16 @@ body {
   min-height: 100vh;
 }
 
+
+/* HEADER */
+
+
 .main-header {
   height:100vh ;
   background-image: url("public/assets/iteration-1/home-banner.png");
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 3rem 0;
 }
 .header-items{
@@ -46,6 +52,7 @@ body {
   font-style: light;
   font-size: 5.3rem;
   color: #fff;
+  text-align: center;
 }
 .header-button{
   padding: 1rem 3rem;
@@ -57,8 +64,41 @@ body {
   font-style: semibold;
   border: none;
   border-radius: 3.1rem;
+  cursor: pointer;
 }
 
+
+/* MAİN */
+
+main{
+  height: 100vh;
+}
+.main-section{
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+}
+.main-section-items,
+.main-section-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.main-section-item{
+  cursor: pointer;
+}
+.main-section-items{
+  gap: 3rem;
+}
+.main-section-item p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 1.1rem;
+}
 @media (max-width:500px){
   .header-span{
     display: none;
