@@ -58,6 +58,16 @@ body {
   border: none;
   border-radius: 3.1rem;
 }
+
+@media (max-width:500px){
+  .header-span{
+    display: none;
+  }
+  .header-p {
+    min-width: 400px;
+    text-align: center;
+  }
+}
 /* 1. Sarı #FDC913
 2. Açık Gri: #5F5F5F
 3. Koyu Gri #292929
