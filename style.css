@@ -339,8 +339,7 @@ main{
   .main-menu1,
   .main-menu2,
   .main-menu2 .main-hamburger,
-  .main-menu2 .main-kurye
-  {
+  .main-menu2 .main-kurye{
     width: 400px;
   }
   .main-menu1 button,
@@ -364,6 +363,11 @@ main{
   .main-content .main-section-items{
     padding: 1rem 1.5rem;
   }
+  .main-content-food{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 }
 
 /* 1. Sarı #FDC913
