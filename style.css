@@ -100,6 +100,133 @@ main{
   font-style: medium;
   font-size: 1.1rem;
 }
+
+/* MAIN CONTENT */
+.main-content {
+  padding: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: #FAF7F2;
+}
+.main-content-items{
+  padding: 0.5rem;
+}
+.main-img{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+.main-menu1{
+  background: url("public/assets/iteration-2/cta/kart-1.png");
+  width: 531px;
+  height: 449px;
+  border-radius: 12px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem 3rem;
+}
+.main-menu1 span{
+  width: 18rem;
+  font-family: "Quattrocento", serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 4.25rem;
+  color: #fff;
+}
+.main-menu1 p{
+  width: 275px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: semibold;
+  font-size: 1.1rem;
+  color: #fff;
+}
+.main-menu1 button,
+.main-hamburger button,
+.main-kurye .btn-kurye {
+  width: 138px;
+  background-color:#fff ;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: semibold;
+  font-size: 1rem;
+  border: none;
+  padding: 1rem 2rem;
+  color:#CE2829 ;
+  border-radius:50px ;
+  cursor: pointer;
+}
+.main-menu2{
+  align-items: center;
+  width: 530px;
+  height: 449px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  justify-content: center;
+}
+.main-menu2 .main-hamburger{
+  background: url("public/assets/iteration-2/cta/kart-2.png");
+  width: 530px;
+  height: 220px;
+  border-radius: 1.3rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: 2rem ;
+
+}
+.main-menu2 .main-hamburger p{
+  width: 530px;
+  height: 220px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: semibold;
+  font-size: 2rem;
+  color:#fff ;
+
+}
+.main-menu2 .main-kurye{
+  background: url("public/assets/iteration-2/cta/kart-3.png");
+  width: 33rem;
+  border-radius: 1.3rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: 2rem;
+
+}
+.main-menu2 .main-kurye p{
+  width: 254px;
+  color: #292929;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: semibold;
+  font-size: 2rem;
+
+}
+.main-menu2 .main-kurye p span{
+  color: #CE2829;
+}
+
+
+
+
 @media (max-width:500px){
   .header-span{
     display: none;
