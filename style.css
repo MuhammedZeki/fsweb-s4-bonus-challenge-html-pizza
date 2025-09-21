@@ -257,6 +257,65 @@ main{
   background-color: #292929;
   color: #fff;
 }
+.main-content-food{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+}
+.main-content-food .pizza1 ,.pizza2,.pizza3{
+  width: 334px;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.5rem;
+  background-color: #fff;
+  
+}
+.main-content-food .pizza1 img,
+.main-content-food .pizza2 img,
+.main-content-food .pizza3 img{
+  width: 270px;
+  
+}
+.main-content-food .food-menu-inform{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+.main-content-food .food-menu-inform .food-menu-price-and-star{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.main-content-food .food-menu-inform h3{
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: semibold;
+  font-size: 1.3rem;
+}
+.main-content-food .star{
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: semibold;
+  font-size: 1rem;
+  color: #1B1B1BB2;
+}
+.main-content-food .price{
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: semibold;
+  font-size: 1.2rem;
+}
+
 @media (max-width:500px){
   .header-span{
     display: none;
