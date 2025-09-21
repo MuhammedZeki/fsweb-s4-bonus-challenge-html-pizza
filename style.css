@@ -98,7 +98,7 @@ main{
   font-family: "Barlow", sans-serif;
   font-weight: 500;
   font-style: medium;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 /* MAIN CONTENT */
@@ -165,13 +165,13 @@ main{
   cursor: pointer;
 }
 .main-menu2{
-  align-items: center;
   width: 530px;
   height: 449px;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   flex-direction: column;
   gap: 0.3rem;
-  justify-content: center;
 }
 .main-menu2 .main-hamburger{
   background: url("public/assets/iteration-2/cta/kart-2.png");
@@ -225,9 +225,36 @@ main{
   color: #CE2829;
 }
 
-
-
-
+.main-content-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem auto;
+}
+.main-content-title p{
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  color: #CE2829;
+}
+.main-content-title h2{
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: semibold;
+  font-size: 2.5rem;
+}
+.main-content .main-section-items .main-section-item{
+  padding:0.5rem 1rem;
+  background-color: #fff;
+  border-radius: 50px;
+}
+.main-content .main-section-items .active{
+  background-color: #292929;
+  color: #fff;
+}
 @media (max-width:500px){
   .header-span{
     display: none;
