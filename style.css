@@ -315,7 +315,97 @@ main{
   font-style: semibold;
   font-size: 1.2rem;
 }
+/* FOOTER */
+footer{
+  background-color: #1A1A1A;
+  margin: 25rem auto 0 auto;
+  padding: 5rem 0 1rem 0;
+}
+.footer-main{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+  margin: 2rem auto 0 auto;
+  gap: 5rem;
+}
+.footer-address,
+.footer-menu,
+.footer-imgs{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: flex-start;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:1rem ;
+  color: #fff;
+}
+.footer-imgs h2{
+  margin-left: 1rem;
+}
+.footer-menu p{
+  padding: 0.8rem 0;
+}
+.footer-address img{
+  width: 251px;
+}
+.address img,
+.footer-mail img,
+.footer-phone img{
+  width: 28px;
+  height: 28px;
+}
+.address{
+  margin-top: 2rem;
+}
+.footer-img {
+  width: 380px;
+  padding:1rem 0;
+  flex-wrap: wrap;
+}
+.footer-img img{
+  width: 105px;
+}
+.address,
+.footer-mail,
+.footer-phone{
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.footer-mail h2,
+.footer-phone h2{
+  font-size: 1.5rem !important;
+  font-weight: 500;
+}
+.footer-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.footer-bottom{
+  margin: 1rem auto;
+  border-top: 1px solid #FFFFFF26;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-bottom p{  
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:1rem ;
+  color: #fff;
+}
+.footer-bottom i{
+  width: 18px;
+  height: 18px;
+  color: #fff;
 
+}
 @media (max-width:500px){
   .header-span{
     display: none;
