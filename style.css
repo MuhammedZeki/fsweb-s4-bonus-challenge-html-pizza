@@ -10,8 +10,6 @@ body {
   min-width: 350px;
   min-height: 100vh;
 }
-
-
 .d-flex-row{
   display: flex;
   justify-content: center;
@@ -23,7 +21,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .g-1{
   gap: 1rem;
 }
@@ -33,7 +30,6 @@ body {
 .g-3{
   gap: 3rem;
 }
-
 .p-1{
   padding: 1rem;
 }
@@ -43,14 +39,12 @@ body {
 .p-3{
   padding: 3rem;
 }
-
 .f-size-1{
   font-size: 1rem;
 }
 .f-size-2{
   font-size: 2rem;
 }
-
 .f-weight-400{
   font-weight: 400;
 }
@@ -60,7 +54,6 @@ body {
 .color-white{
   color: #fff;
 }
-
 .f-wrap{
   flex-wrap: wrap;
 }
